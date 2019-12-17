@@ -6,7 +6,7 @@ paginate: true
 footer: Git/Gitlab Hands-on
 ---
 
-<!-- size: 4:3 -->
+<!-- size: 16:9 -->
 
 <style>
     @font-face
@@ -117,7 +117,7 @@ footer: Git/Gitlab Hands-on
         text-align: center;
         font-size: 70px;
         height: 100%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
 </style>
 
@@ -168,7 +168,7 @@ footer: Git/Gitlab Hands-on
         text-align: center;
         font-size: 70px;
         height: 100%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
 </style>
 
@@ -317,7 +317,7 @@ echo "今日の日付は" $today "日です."
         text-align: center;
         font-size: 70px;
         height: 100%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
 </style>
 
@@ -407,7 +407,7 @@ echo "今日の日付は" $today "日です."
         text-align: center;
         font-size: 70px;
         height: 100%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
 </style>
 
@@ -459,7 +459,7 @@ echo "今日の日付は" $today "日です."
         text-align: center;
         font-size: 70px;
         height: 100%;
-        padding-top: 30%;
+        padding-top: 20%;
     }
 </style>
 
@@ -607,3 +607,18 @@ grep "abc" sample.txt | sort
 - コマンドをファイルにまとめて実行することで、1コマンドで複数の処理を実行可能
 - プログラムに間違えがなければ、作業ミスは理論上発生しない
 </div>
+
+---
+
+# メモ
+
+### ファイルを削除できないとき
+
+```
+rm <filename>
+```
+> rm: 'filename' を削除できません: そのようなファイルやディレクトリはありません
+
+- → 他のアプリケーションでそのファイルを開いたりしてるかも？
+    - databaseファイルならconnectionを貼ってるとか
+    - excelファイルなら開きっぱなし
