@@ -1,9 +1,9 @@
 ---
 marp: true
 theme: base
-description: Gitlab Hands-on slide
+description: Linux Hands-on slide
 paginate: true
-footer: Git/Gitlab Hands-on
+footer: Linux Hands-on
 ---
 
 <!-- size: 16:9 -->
@@ -132,7 +132,7 @@ footer: Git/Gitlab Hands-on
 - Windows、Macなどと同じOSの一種
 - オープンソースソフトウェア
 - 家電製品、情報機器の組み込みなど、多くの環境で使われている
-- 
+    - 寿司屋の注文ディスプレイバグってLinuxの管理画面でちゃったツイート見たことある
 
 ---
 
